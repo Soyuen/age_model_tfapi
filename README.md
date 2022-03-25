@@ -24,7 +24,7 @@ python tfrecord.py --db wiki
 ```
 ### Data processcing II
 If you were already doing **Data processcing I**, you can skip these steps.  
-*Run the code below for merge imdb.tfrecords
+* Run the code below for merge imdb.tfrecords
 ```
 cd ./data
 python merge_record.py
