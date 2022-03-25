@@ -37,8 +37,10 @@ python train.py --input ../data/imdb.npz --db imdb
 python train.py --input ../data/wiki.npz --db wiki  --batch_size 50
 ```
 
-<img src="https://github.com/Soyuen/picture/blob/main/gpu1.JPG" width = "400" height = "400" alt="result"><img src="https://github.com/Soyuen/picture/blob/main/gpu2.JPG" width = "400" height = "400" alt="result">
-
+<img src="https://github.com/Soyuen/picture/blob/main/gpu1.JPG" width = "400" height = "400" alt="result">
+Using original code
+<img src="https://github.com/Soyuen/picture/blob/main/gpu2.JPG" width = "400" height = "400" alt="result">
+Using this code
 
 |  Method  | Imdb (training time)  | Wiki (training time)  | volatile GPU-util |
 |----------|:---------------------:|:---------------------:|:-----------------:|
