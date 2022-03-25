@@ -37,7 +37,6 @@ python train.py --input ../data/imdb.npz --db imdb
 python train.py --input ../data/wiki.npz --db wiki  --batch_size 50
 ```
 
-<img src="https://github.com/Soyuen/picture/blob/main/gpu1.JPG" width = "166" height = "200" alt="result">
-<img src="https://github.com/Soyuen/picture/blob/main/gpu2.JPG" width = "166" height = "200" alt="result">
+<img src="https://github.com/Soyuen/picture/blob/main/gpu1.JPG" width = "320" height = "400" alt="result"><img src="https://github.com/Soyuen/picture/blob/main/gpu2.JPG" width = "320" height = "400" alt="result">
 
 
