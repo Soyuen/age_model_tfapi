@@ -37,7 +37,7 @@ python train.py --input ../data/imdb.npz --db imdb
 python train.py --input ../data/wiki.npz --db wiki  --batch_size 50
 ```
 
-![GPU_before](https://github.com/Soyuen/picture/blob/main/gpu1.JPG)
-![GPU_before](https://github.com/Soyuen/picture/blob/main/gpu2.JPG)
+<img src="https://github.com/Soyuen/age_estimation_compact_model/blob/main/image/gpu1.JPG" width = "166" height = "200" alt="result">
+<img src="https://github.com/Soyuen/age_estimation_compact_model/blob/main/image/gpu2.JPG" width = "166" height = "200" alt="result">
 
 
