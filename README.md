@@ -40,3 +40,9 @@ python train.py --input ../data/wiki.npz --db wiki  --batch_size 50
 <img src="https://github.com/Soyuen/picture/blob/main/gpu1.JPG" width = "400" height = "400" alt="result"><img src="https://github.com/Soyuen/picture/blob/main/gpu2.JPG" width = "400" height = "400" alt="result">
 
 
+|  Method  | Imdb (training time)  | Wiki (training time)  | volatile GPU-util |
+|----------|:---------------------:|:---------------------:|:-----------------:|
+| Original |   1 hr 56 mins        |        27 mins        |       41%         |
+|This code |       31 mins         |        10 mins        |       83%         | 
+
+This code is training **triple** faster than original code.
