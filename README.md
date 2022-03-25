@@ -33,8 +33,8 @@ python merge_record.py
 Training model with 90 epochs.The batch size is 128 on Imdb dataset and 50 on Wiki dataset.(the same setting with SSR-Net)
 ```
 cd ./training
-python train.py --input ../data/imdb.npz --db imdb
-python train.py --input ../data/wiki.npz --db wiki  --batch_size 50
+python train.py --input ../data/imdb.tfrecords --db imdb
+python train.py --input ../data/wiki.tfrecords --db wiki  --batch_size 50
 ```
 Using original code  
 <img src="https://github.com/Soyuen/picture/blob/main/gpu1.JPG" width = "400" height = "400" alt="result">  
